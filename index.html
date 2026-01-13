@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Lid Collective</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            background: white;
+            border-bottom: 1px solid #eee;
+        }
+
+        h1 { text-transform: uppercase; letter-spacing: 2px; margin: 0; }
+
+        nav { margin-top: 20px; }
+        nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+
+        /* The Zine Grid */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .zine-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .zine-item {
+            background: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            transition: transform 0.2s;
+        }
+
+        .zine-item:hover { transform: translateY(-5px); }
+
+        .zine-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .zine-info { padding: 15px 5px; }
+        .zine-title { font-weight: bold; display: block; }
+        .zine-artist { font-style: italic; color: #666; }
+
+        footer { text-align: center; padding: 60px 20px; color: #888; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Open Lid Collective</h1>
+        <nav>
+            <a href="#work">Zines</a>
+            <a href="#about">About</a>
+            <a href="mailto:hello@example.com">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container" id="work">
+        <div class="zine-grid">
+            <div class="zine-item">
+                <img src="https://via.placeholder.com/400x500" alt="Zine Cover">
+                <div class="zine-info">
+                    <span class="zine-title">Sample Zine Title</span>
+                    <span class="zine-artist">by Artist Name</span>
+                </div>
+            </div>
+            
+            <div class="zine-item">
+                <img src="https://via.placeholder.com/400x500" alt="Zine Cover">
+                <div class="zine-info">
+                    <span class="zine-title">Another Publication</span>
+                    <span class="zine-artist">by Open Lid Collective</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <hr>
+        <h2>About Us</h2>
+        <p>Open Lid Collective is a platform for independent creators and book artists. We specialize in small-press publications, risograph prints, and limited edition artist books.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Open Lid Collective. Follow us on Instagram @OpenLidCollective</p>
+    </footer>
+
+</body>
+</html>
