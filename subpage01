@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intimacy 亲密 - Open Lid Collective</title>
+    </head>
+<body>
+    <nav><a href="index.html">← Back to Catalog</a></nav>
+    
+    <h1>Intimacy 亲密</h1>
+    <div class="gallery">
+        <img src="OpenLid 01.jpg">
+        <img src="OL 01-1.jpeg">
+        <img src="OL 01-2.jpeg">
+        <img src="OL 01-3.jpeg">
+    </div>
+    
+    <p>A risograph zine by Yan Wang, 
+    illustrated a fleeting intimate relationship wrapped in a distant chat. </p>
+</body>
+</html>
